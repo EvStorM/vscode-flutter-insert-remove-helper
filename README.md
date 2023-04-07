@@ -9,15 +9,15 @@ This extension currently Help you quickly insert and remove Widgets in fluttter,
 
 ### insert a Parent Widget
 
-![insert1](media/in1.gif)
+![insert1](media/insert1.gif)
 
 ### remove a Parent Widget
 
-![remove](media/remove.gif)
+![remove](media/remove1.gif)
 
 ### insert a Parent and Sibling Widget
 
-![insert2](media/in2.gif)
+![insert2](media/insert2.gif)
 
 ## If you like, you can check out my other VSCode Extension
 Flutter riverpod Helpers <https://github.com/EvStorM/vscode-flutter-riverpod-helper>

@@ -2,7 +2,7 @@
   "name": "vscode-flutter-insert-remove-helper",
   "displayName": "Flutter Insert and Remove",
   "description": "This extension currently Help you quickly insert and remove Widget in fluttter, no need to selection, select the corresponding Widget right click can be",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "publisher": "evils",
   "icon": "media/icon.png",
   "repository": {
