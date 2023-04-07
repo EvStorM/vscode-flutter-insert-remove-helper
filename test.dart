@@ -20,9 +20,7 @@ class _TabItem extends StatelessWidget {
           children:  [CustomScrollView(
         slivers: [
           if (context.watch<AgreeListModel>().isNoMore)
-            SliverToBoxAdapter(
-              child: NoData(),
-            ),
+            Test(),
           SliverPadding(
             sliver: SliverGrid.count(
               crossAxisCount: 1,
@@ -46,4 +44,12 @@ class _TabItem extends StatelessWidget {
   }
 }
 
-
+class Test extends StatelessWidget {
+          const Test({super.key});
+          @override
+          Widget build(BuildContext context) {
+            return SliverToBoxAdapter(
+              child: NoData(),
+            );
+          }
+        }

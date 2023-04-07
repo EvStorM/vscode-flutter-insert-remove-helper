@@ -19,5 +19,9 @@ This extension currently Help you quickly insert and remove Widgets in fluttter,
 
 ![insert2](media/insert2.gif)
 
+### split and extraction Widget
+
+![splitExtraction](media/splitExtraction.gif)
+
 ## If you like, you can check out my other VSCode Extension
 Flutter riverpod Helpers <https://github.com/EvStorM/vscode-flutter-riverpod-helper>

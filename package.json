@@ -2,7 +2,7 @@
   "name": "vscode-flutter-insert-remove-helper",
   "displayName": "Flutter Insert and Remove",
   "description": "This extension currently Help you quickly insert and remove Widget in fluttter, no need to selection, select the corresponding Widget right click can be",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "publisher": "evils",
   "icon": "media/icon.png",
   "repository": {
@@ -34,6 +34,14 @@
     "Dart-Code.dart-code"
   ],
   "contributes": {
+    "keybindings": [
+      {
+        "command": "FlutterInsertAndRemove.splitExtraction",
+        "key": "ctrl+f10",
+        "mac": "cmd+f10",
+        "when": "editorLangId == dart"
+      }
+    ],
     "menus": {
       "editor/context": [
         {
@@ -50,6 +58,11 @@
           "command": "FlutterInsertAndRemove.insertSibling",
           "when": "editorLangId == dart",
           "title": "insert a Parent and Sibling Widget"
+        },
+        {
+          "command": "FlutterInsertAndRemove.splitExtraction",
+          "when": "editorLangId == dart",
+          "title": "split and extraction Widget"
         }
       ]
     },
@@ -71,6 +84,12 @@
         "when": "editorLangId == dart",
         "group": "1_modification",
         "title": "insert a Parent and Sibling Widget"
+      },
+      {
+        "command": "FlutterInsertAndRemove.splitExtraction",
+        "when": "editorLangId == dart",
+        "group": "1_modification",
+        "title": "split and extraction Widget"
       }
     ]
   },
