@@ -4,11 +4,11 @@ import { getChild, getNode, getRegSelection, getSelection } from "./utils/utils"
 export class Insert {
   // reg = `\(([^\(\)]++|(?R))*+\)`;
   constructor(context: vscode.ExtensionContext) {
-    let insertParent = vscode.commands.registerCommand("flutterRiverpodHelper.insertParent", this.insertParent);
+    let insertParent = vscode.commands.registerCommand("FlutterInsertAndRemove.insertParent", this.insertParent);
     context.subscriptions.push(insertParent);
-    let removeParent = vscode.commands.registerCommand("flutterRiverpodHelper.removeParent", this.removeParent);
+    let removeParent = vscode.commands.registerCommand("FlutterInsertAndRemove.removeParent", this.removeParent);
     context.subscriptions.push(removeParent);
-    let insertSibling = vscode.commands.registerCommand("flutterRiverpodHelper.insertSibling", this.insertSibling);
+    let insertSibling = vscode.commands.registerCommand("FlutterInsertAndRemove.insertSibling", this.insertSibling);
     context.subscriptions.push(insertSibling);
   }
 

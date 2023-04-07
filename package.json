@@ -2,7 +2,7 @@
   "name": "vscode-flutter-insert-remove-helper",
   "displayName": "Flutter Insert and Remove",
   "description": "This extension currently Help you quickly insert and remove Widget in fluttter, no need to selection, select the corresponding Widget right click can be",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "publisher": "evils",
   "icon": "media/icon.png",
   "repository": {
@@ -37,17 +37,17 @@
     "menus": {
       "editor/context": [
         {
-          "command": "flutterRiverpodHelper.insertParent",
+          "command": "FlutterInsertAndRemove.insertParent",
           "when": "editorLangId == dart",
           "title": "insert a Parent Widget"
         },
         {
-          "command": "flutterRiverpodHelper.removeParent",
+          "command": "FlutterInsertAndRemove.removeParent",
           "when": "editorLangId == dart",
           "title": "remove a Parent Widget"
         },
         {
-          "command": "flutterRiverpodHelper.insertSibling",
+          "command": "FlutterInsertAndRemove.insertSibling",
           "when": "editorLangId == dart",
           "title": "insert a Parent and Sibling Widget"
         }
@@ -55,19 +55,19 @@
     },
     "commands": [
       {
-        "command": "flutterRiverpodHelper.insertParent",
+        "command": "FlutterInsertAndRemove.insertParent",
         "when": "editorLangId == dart",
         "group": "1_modification",
         "title": "insert a Parent Widget"
       },
       {
-        "command": "flutterRiverpodHelper.removeParent",
+        "command": "FlutterInsertAndRemove.removeParent",
         "when": "editorLangId == dart",
         "group": "1_modification",
         "title": "remove a Parent Widget"
       },
       {
-        "command": "flutterRiverpodHelper.insertSibling",
+        "command": "FlutterInsertAndRemove.insertSibling",
         "when": "editorLangId == dart",
         "group": "1_modification",
         "title": "insert a Parent and Sibling Widget"
