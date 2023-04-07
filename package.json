@@ -2,7 +2,7 @@
   "name": "vscode-flutter-insert-remove-helper",
   "displayName": "Flutter Insert and Remove",
   "description": "This extension currently Help you quickly insert and remove nodes in fluttter, no need to selection, select the corresponding node right click can be",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "publisher": "evils",
   "icon": "media/icon.png",
   "repository": {
