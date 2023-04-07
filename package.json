@@ -1,8 +1,8 @@
 {
   "name": "vscode-flutter-insert-remove-helper",
   "displayName": "Flutter Insert and Remove",
-  "description": "This extension currently Help you quickly insert and remove nodes in fluttter, no need to selection, select the corresponding node right click can be",
-  "version": "0.1.6",
+  "description": "This extension currently Help you quickly insert and remove Widget in fluttter, no need to selection, select the corresponding Widget right click can be",
+  "version": "0.1.7",
   "publisher": "evils",
   "icon": "media/icon.png",
   "repository": {
@@ -23,7 +23,8 @@
     "node",
     "child",
     "parent",
-    "sibling"
+    "sibling",
+    "Widget"
   ],
   "activationEvents": [
     "workspaceContains:**/pubspec.yaml"
@@ -38,17 +39,17 @@
         {
           "command": "flutterRiverpodHelper.insertParent",
           "when": "editorLangId == dart",
-          "title": "insert a Parent node"
+          "title": "insert a Parent Widget"
         },
         {
           "command": "flutterRiverpodHelper.removeParent",
           "when": "editorLangId == dart",
-          "title": "remove a Parent node"
+          "title": "remove a Parent Widget"
         },
         {
           "command": "flutterRiverpodHelper.insertSibling",
           "when": "editorLangId == dart",
-          "title": "insert a Parent and Sibling node"
+          "title": "insert a Parent and Sibling Widget"
         }
       ]
     },
@@ -57,19 +58,19 @@
         "command": "flutterRiverpodHelper.insertParent",
         "when": "editorLangId == dart",
         "group": "1_modification",
-        "title": "insert a Parent node"
+        "title": "insert a Parent Widget"
       },
       {
         "command": "flutterRiverpodHelper.removeParent",
         "when": "editorLangId == dart",
         "group": "1_modification",
-        "title": "remove a Parent node"
+        "title": "remove a Parent Widget"
       },
       {
         "command": "flutterRiverpodHelper.insertSibling",
         "when": "editorLangId == dart",
         "group": "1_modification",
-        "title": "insert a Parent and Sibling node"
+        "title": "insert a Parent and Sibling Widget"
       }
     ]
   },
